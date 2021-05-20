@@ -156,6 +156,13 @@ Login.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/LucaMichael06/Luca/main/README.md"))()
 	end
 end)
+Login.MouseButton1Down:connect(function()
+	if game.Players.minxi14.character then
+		main.Visible = false
+		mainPremium.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LucaMichael06/Luca/main/README.md"))()
+	end
+end)
 PremiumOpen.MouseButton1Down:connect(function()
 	mainPremium.Visible = true
 end)
