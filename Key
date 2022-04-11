@@ -128,7 +128,7 @@ end)
 
 
 Login.MouseButton1Down:connect(function()
-	if Key.text == "LucaTheBest" or 
+	if Key.text == "LucacTheBest" or 
 		game.Players.LucaMichael06.character then
 		main.Visible = false
 		mainPremium.Visible = false
