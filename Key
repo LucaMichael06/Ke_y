@@ -118,7 +118,7 @@ PremiumLogin.MouseButton1Down:connect(function()
 	end
 end)
 PremiumLogin.MouseButton1Down:connect(function()
-	if game.Players.TACO41325.character then
+	if game.Players.DerGPOHrs.character then
 		main.Visible = false
 		mainPremium.Visible = false
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/LucaMichael06/Luca/main/README.md"))()
@@ -158,7 +158,7 @@ Login.MouseButton1Down:connect(function()
 	end
 end)
 Login.MouseButton1Down:connect(function()
-	if game.Players.TACO41325.character then
+	if game.Players.DerGPOHrs.character then
 		main.Visible = false
 		mainPremium.Visible = false
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/LucaMichael06/Luca/main/README.md"))()
