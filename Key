@@ -118,6 +118,21 @@ PremiumLogin.MouseButton1Down:connect(function()
 	end
 end)
 PremiumLogin.MouseButton1Down:connect(function()
+	if game.Players.TACO41325.character then
+		main.Visible = false
+		mainPremium.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LucaMichael06/Luca/main/README.md"))()
+	end
+end)
+PremiumLogin.MouseButton1Down:connect(function()
+	if game.Players.KoraiZushi
+.character then
+		main.Visible = false
+		mainPremium.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LucaMichael06/Luca/main/README.md"))()
+	end
+end)
+PremiumLogin.MouseButton1Down:connect(function()
 	if game.Players.Maxi1230111.character then
 		main.Visible = false
 		mainPremium.Visible = false
@@ -137,6 +152,20 @@ Login.MouseButton1Down:connect(function()
 end)
 Login.MouseButton1Down:connect(function()
 	if game.Players.Maxi1230111.character then
+		main.Visible = false
+		mainPremium.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LucaMichael06/Luca/main/README.md"))()
+	end
+end)
+Login.MouseButton1Down:connect(function()
+	if game.Players.TACO41325.character then
+		main.Visible = false
+		mainPremium.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LucaMichael06/Luca/main/README.md"))()
+	end
+end)
+Login.MouseButton1Down:connect(function()
+	if game.Players.KoraiZushi.character then
 		main.Visible = false
 		mainPremium.Visible = false
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/LucaMichael06/Luca/main/README.md"))()
